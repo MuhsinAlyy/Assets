@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+</head>
+    <style>
+
+.product-card{
+width: 100%;
+position: relative;
+background-color: skyblue;
+
+
+}
+.product-menu{
+
+top: 0;
+left: 0;
+background-color: black;
+display: none;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+#hov:hover .product-menu{
+    display: flex;
+}
+
+button {
+  
+    position: relative;
+    animation:bounce 5s;
+}
+
+
+}
+
+@keyframes bounce{
+0%{
+    
+    background-color: blue;
+    opacity: 0;
+}
+
+100%{
+    opacity: 1;
+    background-color: aqua;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+<body>
+    
+<div class="product-card">
+    <h1 id="hov">Hover!</span>
+    <div class="product-menu">
+<button>Quick View</button>
+<button> View All</button>
+<button>View Some</button>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<div>
+<button>Quick View</button>
+<button> View All</button>
+<button>View Some</button>
+</div>
+
+
+
+</body>
+</html>

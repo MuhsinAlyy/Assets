@@ -1,0 +1,200 @@
+{font-family: Arial, Helvetica, sans-serif}
+* {box-sizing: border-box;}
+h1{
+text-align: center;
+text-decoration: none;
+text-size-adjust: bold;
+
+text-shadow: #804d4d;
+color: rgb(17, 92, 110);
+border: 2px solid black;
+
+
+
+}
+.bg-img {
+  /* The image used */
+  background-image: url("bgg\ \(1\).jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 30px;
+  width: 850PX;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #143c5c;
+  padding-right: 50px;
+  margin-inline-start: 20px;
+  margin-left: 30PX;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+  margin-left: 40PX;
+  
+}
+
+.topnav{
+  float: left;
+}
+
+
+@media(width <= 1100px){
+  .topnav{
+display: flex;
+flex-direction: column;
+
+  }
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 70px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  padding: 6px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 11px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+button{
+  border: none;
+  outline: 0;
+  padding: 11px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background: #143c5c;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.socials {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
